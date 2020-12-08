@@ -1,6 +1,6 @@
 {
     "name": "vscode-startupjs",
-    "displayName": "vscode-startupjs",
+    "displayName": "StartupJS",
     "description": "StartupJS framework support for VS Code",
     "version": "0.1.1",
     "publisher": "startupjs",
