@@ -6,6 +6,10 @@
     "publisher": "startupjs",
     "icon": "logo.png",
     "license": "MIT",
+    "scripts": {
+        "publish-patch": "vsce publish patch",
+        "publish-minor": "vsce publish minor"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/startupjs/vscode-startupjs.git"
