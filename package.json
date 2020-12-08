@@ -1,0 +1,37 @@
+{
+    "name": "vscode-startupjs",
+    "displayName": "vscode-startupjs",
+    "description": "StartupJS framework support for VS Code",
+    "version": "0.0.5",
+    "publisher": "startupjs",
+    "icon": "logo.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/startupjs/vscode-startupjs.git"
+    },
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "scopeName": "startupjs.stylus",
+                "path": "./syntaxes/stylus.json",
+                "injectTo": [
+                    "source.js",
+                    "source.ts",
+                    "source.jsx",
+                    "source.js.jsx",
+                    "source.tsx"
+                ],
+                "embeddedLanguages": {
+                    "startupjs.stylus": "stylus"
+                }
+            }
+        ]
+    }
+}

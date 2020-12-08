@@ -1,0 +1,21 @@
+{
+  "fileTypes": ["js", "jsx", "ts", "tsx"],
+  "injectionSelector": "L:source -comment -string",
+  "patterns": [
+    {
+      "include": "#styl-tagged-template"
+    }
+  ],
+  "repository": {
+    "styl-tagged-template": {
+      "begin": "styl\\s*`",
+      "end": "\\s*`",
+      "patterns": [
+        {
+          "include": "source.stylus"
+        }
+      ]
+    }
+  },
+  "scopeName": "startupjs.stylus"
+}
