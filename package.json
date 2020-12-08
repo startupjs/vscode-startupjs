@@ -2,7 +2,7 @@
     "name": "vscode-startupjs",
     "displayName": "StartupJS",
     "description": "StartupJS framework support for VS Code",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "startupjs",
     "icon": "logo.png",
     "license": "MIT",
